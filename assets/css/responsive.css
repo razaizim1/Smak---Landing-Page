@@ -1,0 +1,219 @@
+@media all and (max-width: 1200px) {
+    .single-service p {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1140px) {
+
+    .service-heading p,
+    .about-text p,
+    .about-heading p {
+        width: 100%;
+    }
+
+    .single-service {
+        margin-bottom: 2rem;
+    }
+
+    .teams {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .work-process {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+    }
+
+    .work-content {
+        grid-template-columns: 1fr;
+    }
+
+    .work-heading p {
+        margin-bottom: 3rem;
+
+    }
+
+    .work-text p,
+    .contact-heading p {
+        width: 100%;
+    }
+
+    .cancel {
+        display: none;
+    }
+
+    .gallery-area {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .count-section {
+        padding: 1rem 2rem 5.5rem 2rem;
+        margin: 0 .5rem;
+    }
+
+    .teams {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-details {
+        width: 90%;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    .menu-bar {
+        display: block;
+    }
+
+    .menu-bar i {
+        color: var(--color2);
+        font-size: 3rem;
+    }
+
+    .menu-bar i:hover {
+        color: var(--color1);
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .banner-content h1 {
+        font-size: 4rem;
+        width: 100%;
+    }
+
+    .primary-btn {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .header-banner {
+        padding: 10rem 0;
+    }
+
+    .service-heading p {
+        width: 100%;
+    }
+
+    .service-heading::after,
+    .work-heading::after,
+    .about-heading::after,
+    .client-heading::after,
+    .contact-heading::after {
+        top: 38%;
+    }
+
+    .count-section span {
+        font-size: 3rem;
+    }
+
+    .count-section p {
+        font-size: 1.4rem;
+    }
+
+    .about-items {
+        grid-template-columns: 1fr;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 5px 3px !important;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    input[type="submit"] {
+        font-size: 1.3rem;
+    }
+
+    .form-top {
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+    }
+
+    .submit-btn {
+        margin-top: 2rem;
+    }
+}
+
+@media all and (max-width: 575px) {
+    p {
+        font-size: 1.5rem;
+    }
+
+    .work-process {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-count {
+        flex-direction: column;
+    }
+
+    .count-section {
+        margin: 1rem auto;
+    }
+
+    .teams {
+        grid-template-columns: 1fr;
+    }
+
+    .client-message p {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.8rem;
+    }
+
+
+    .service-heading::after,
+    .work-heading::after,
+    .about-heading::after,
+    .client-heading::after,
+    .contact-heading::after {
+        top: 28%;
+    }
+
+    .gallery-area {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .skills {
+        grid-template-columns: 1fr;
+    }
+}
